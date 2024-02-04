@@ -1,0 +1,62 @@
+@font-face {
+    font-family: HPfont; 
+    src: url('assets/fonts/HPfont.ttf') format('truetype'); 
+}
+
+* {
+    font-family: HPfont;
+}
+.logo{
+    padding-left:15px;
+    padding-top:10px;
+}
+
+.main-nav{
+    padding-top: 10px;
+    height: 80px;
+    margin: auto;
+    border-radius: 100px; 
+    background: rgba(100,100,100,.25);
+}
+
+.container{
+    padding-right:30px;
+    display: flex;
+}
+
+header{
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    opacity: .65;
+    font-size: 45px;
+    margin-right: 200px; /* Adjusts spacing between navigation items */
+}
+
+nav li:hover{
+    opacity: 1.0;
+}
+
+nav ul li:last-child{
+    margin-right: 35px; /* removes unecessary space from right of last element in list */
+}
+
+nav a{
+    text-decoration: none;
+    color: black; 
+}
+
+body{
+    background-image: url("assets/castleBackdrop.png");
+    background-attachment: fixed; 
+    background-size: cover; /* cover window, may cut off ends of image */
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
