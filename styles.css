@@ -11,12 +11,16 @@
     padding-top:10px;
 }
 
+.center-items-horizontal{
+    text-align: center;
+}
+
 .main-nav{
     padding-top: 10px;
     height: 80px;
     margin: auto;
     border-radius: 100px; 
-    background: rgba(100,100,100,.25);
+    background: rgba(186, 186, 186, 0.4);
 }
 
 .container{
@@ -52,11 +56,33 @@ nav a{
     color: black; 
 }
 
-body{
+.home-page-body{
     background-image: url("assets/castleBackdrop.png");
     background-attachment: fixed; 
     background-size: cover; /* cover window, may cut off ends of image */
     background-repeat: no-repeat; 
     background-position: center center;
 }
+
+.generic-page-body{
+    background-color: rgb(255, 255, 255);
+}
+
+#wizard-witch-select{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.custom-selector{
+    padding-top: 80px;
+}
+
+.custom-selector select{
+    background-color: rgb(142, 182, 225);
+    font-size: 30px;
+    border: none;
+}
+
+
+
 

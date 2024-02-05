@@ -7,7 +7,7 @@
         <title>Wizarding World Guide</title>
     </head>
 
-    <body>
+    <body class="generic-page-body">
         
         <header>
             <div class="container">
@@ -25,7 +25,17 @@
         </header>
         
         <main>
-            wizards and witches works!
+
+            <div class="custom-selector center-items-horizontal">
+                <select id="wizard-witch-select">
+                    <option value="default">Select a wizard or witch!</option>
+                    <option value="Harry" id="option1">Harry Potter</option>
+                    <option value="Ron" id="option2">Ron Weasley</option>
+                    <option value="Hermione" id="option3">Hermione Granger</option>
+                </select>
+                <p style="font-family:Arial, Helvetica, sans-serif">
+                    Unfortunately, without JS, I cannot implement &ltselect&gt functionality
+                </p>
         </main>
 
     </body>
