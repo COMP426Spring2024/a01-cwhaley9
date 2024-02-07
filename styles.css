@@ -83,6 +83,33 @@ nav a{
     border: none;
 }
 
+.spell-title{
+    display: inline-block;
+    background-color: rgba(104, 138, 201, 0.4);
+    border-radius: 100px;
+    padding: 10px;
+    padding-right: 15px;
+    font-size: 50px;
+    margin-top: 20px;
+}
 
+.spell-element{
+    padding-left: 20px;
+}
 
+.spell-desc{
+    font-size: 24px;
+    padding-left: 40px;
+}
 
+.footnote-citation{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:10px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.spell-container{
+    padding-top: 30px;
+}
